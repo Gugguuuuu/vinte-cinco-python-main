@@ -1,0 +1,7 @@
+f = str(input('Digite um frase : '))
+f = f.strip()
+f = f.lower()
+a = f.count('a')
+primeiroA = f.find('a')
+ultimoa = f.rfind('a')
+print('A letra a apareceu \n {} \n veses na sua frase  e a primeira foi na posição \n {} \n e a ultima vez foi na posição  \n {}'.format(a, primeiroA + 1, ultimoa + 1))
